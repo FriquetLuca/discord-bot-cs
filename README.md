@@ -4,6 +4,18 @@
 
 It's just a tweak from [drobbins329](https://github.com/drobbins329/Discord.Net-V3-Bot-Tutorial)'s discord bot project. It will probably be modified and given a bit more thoughts on implementation as time goes on.
 
+## Installation
+
+Install all the NuGet packages:
+```terminal
+dotnet add package Discord.NET --version 3.8.1
+dotnet add package Microsoft.Extensions.Configuration --version 6.0.0
+dotnet add package Microsoft.Extensions.Configuration.Json --version 6.0.0
+dotnet add package Microsoft.Extensions.DependencyInjection --version 7.0.0
+dotnet add package Microsoft.Extensions.DependencyInjection.Abstractions --version 7.0.0
+dotnet add package Microsoft.Extensions.Hosting --version 6.0.0
+```
+
 ## Configuration
 
 To configure your bot, copy `config.json.example` and paste it renamed as `config.json`.
